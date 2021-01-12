@@ -1,4 +1,4 @@
-# optimal_path_textbooks
+# Optimal Reading Sequence in Science textbooks
 
 This algorithm is part of an article that is being published soon.
 It's goal is to return the most optimal reading sequence from chapters of science textbooks given a topic.
