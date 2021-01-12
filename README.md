@@ -7,6 +7,6 @@ Moreover, the algorithm also organizes the chapters from most relevant ones to l
 This organization is defined as the optimal reading sequence for the Energy topic.
 
 Possible applications of the algorithm are:
--Show how topics can be interdisciplinary;
--Help widen study guides;
--Facilitates research on specific topics. 
+/p -Show how topics can be interdisciplinary;
+/p -Help widen study guides;
+/p -Facilitates research on specific topics. 
