@@ -180,10 +180,10 @@ while True:
 
     data.plot()
 
-    
+    """
     c = alt.Chart(df).mark_circle(color='blue', opacity=0.5).encode(x='a',y='b', size='c', color='c', tooltip=['a','b','c'])
     st.write(c)
-   
+   """
 
     #df = pd.DataFrame(
      #   np.random.randn(200, 3),
