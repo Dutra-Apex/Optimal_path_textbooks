@@ -6,6 +6,7 @@ import pickle
 import csv
 import altair as alt
 
+plt.style.use('fivethirtyeight')
 
 if 1==1:
     # Opens titles file
@@ -198,6 +199,7 @@ if 1==1:
         for sec in path[:pathlen]:
             results[title_name(sec)] = M_OS[sec,sig_features]
         plot_horizontal_bar(results, terms)
+        plt.figure(figsize=(10,6))
         plt.show()
     # --------------------------------------------------------------------------------
 
