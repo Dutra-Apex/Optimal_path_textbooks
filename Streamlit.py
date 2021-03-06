@@ -6,7 +6,7 @@ import pickle
 import csv
 import altair as alt
 
-while True:
+#while True:
     # Opens titles file
     if 1:
         with open('OS_all_M_T_title.p', 'rb') as f:
