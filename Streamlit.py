@@ -197,7 +197,7 @@ if 1==1:
         # Fill in the data structure, which would be useful for plotting.
         results = {}
         for sec in path[:pathlen]:
-            results[sec] = M_OS[sec,sig_features]
+            results[title_name(sec)] = M_OS[sec,sig_features]
         plot_horizontal_bar(results, terms)
         #plt.figure(figsize=(10,6))
         plt.show()
@@ -233,6 +233,7 @@ if 1==1:
 
     # Plots the result
     plot_path_sig_terms(M_OS, T_OS, good_path, path_length)
+    plt.figure(figuresize=(10,6))
     st.pyplot()
 
     #df = pd.DataFrame(
