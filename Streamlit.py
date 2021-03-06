@@ -233,11 +233,11 @@ if 1==1:
     plot_path_sig_terms(M_OS, T_OS, good_path, path_length)
     st.pyplot()
 
-    df = pd.DataFrame(
-        np.random.randn(200, 3),
-        columns=['a', 'b', 'c'])
-    c = alt.Chart(data).mark_circle().encode(
-        x='a', y='b', size='c', color='c')
-    st.altair_chart(c, use_container_width=True)
+    #df = pd.DataFrame(
+    #    np.random.randn(200, 3),
+    #    columns=['a', 'b', 'c'])
+    #c = alt.Chart(data).mark_circle().encode(
+    #    x='a', y='b', size='c', color='c')
+    #st.altair_chart(c, use_container_width=True)
 
     data
