@@ -179,7 +179,7 @@ while c < 1:
 
     data = pd.DataFrame.from_dict(results, orient='index', columns=sig_terms)
 
-    data.plot()
+    #data.plot()
 
     df = pd.DataFrame(
         np.random.randn(200, 3),
