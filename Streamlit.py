@@ -7,7 +7,7 @@ import csv
 import altair as alt
 
 
-while True:
+if 1==1:
     # Opens titles file
     if 1:
         with open('OS_all_M_T_title.p', 'rb') as f:
@@ -236,7 +236,7 @@ while True:
     df = pd.DataFrame(
         np.random.randn(200, 3),
         columns=['a', 'b', 'c'])
-    c = alt.Chart(df).mark_circle().encode(
+    c = alt.Chart(data).mark_circle().encode(
         x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
     st.altair_chart(c, use_container_width=True)
 
