@@ -189,7 +189,7 @@ if 1==1:
 
         sections = []
         for i in path[:pathlen]:
-            sections.append(title_name(i))  # Title name is a function that returns the title of the section plus its respective book (PHYS, BIO or CHEM)
+            sections.append(i)  # Title name is a function that returns the title of the section plus its respective book (PHYS, BIO or CHEM)
         terms = []
         for i in sig_features:
             terms.append(T_OS[i])
