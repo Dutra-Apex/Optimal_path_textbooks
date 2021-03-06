@@ -76,10 +76,6 @@ while True:
         #        (trying to avoid local min, c.f., simulated annealing).
         # prob = 1.0 (always accept the next closest point)
 
-        # pdist = N x N
-        # plt.imshow(pdist)
-        # plt.show()
-
         good_path = list()
         good_path.append(starting_point)
         N, _ = pdist.shape
@@ -184,10 +180,10 @@ while True:
 
     data.plot()
 
-    """
+    
     c = alt.Chart(df).mark_circle(color='blue', opacity=0.5).encode(x='a',y='b', size='c', color='c', tooltip=['a','b','c'])
     st.write(c)
-    """
+   
 
     #df = pd.DataFrame(
      #   np.random.randn(200, 3),
@@ -196,11 +192,11 @@ while True:
     c = alt.Chart(data).mark_circle(color='blue', opacity=0.5).encode(x='results:Q',y='results:Q')
     st.write(c)
 
-    """
+    
     c = alt.Chart(df.to_json()).mark_circle().encode(
        x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
     st.write(c)
-    """
+    
 
     # Plots the result
     plt.plot(good_path,'.')
