@@ -236,7 +236,7 @@ if 1==1:
     # Plots the result
     with _lock:
         plot_path_sig_terms(M_OS, T_OS, good_path, path_length)
-        plt.figure(figsize=(10,5))
+        #plt.figure(figsize=(10,5))
         #plt.title('List of relevancy of terms per section)
         st.pyplot()
 
