@@ -180,16 +180,20 @@ while True:
 
     data.plot()
 
-    """
-    c = alt.Chart(df).mark_circle(color='blue', opacity=0.5).encode(x='a',y='b', size='c', color='c', tooltip=['a','b','c'])
-    st.write(c)
-   """
+    
+    #c = alt.Chart(df).mark_circle(color='blue', opacity=0.5).encode(x='a',y='b', size='c', color='c', tooltip=['a','b','c'])
+    #st.write(c)
+   
 
     #df = pd.DataFrame(
      #   np.random.randn(200, 3),
       #  columns=['a', 'b', 'c'])
+    
+    c = alt.Chart(df).mark_circle().encode(
+        x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
+    st.altair_chart(c, use_container_width=True)
 
-    c = alt.Chart(data).mark_circle(color='blue', opacity=0.5).encode(x='results:Q',y='results:Q')
+    c = alt.Chart(data).mark_circle(color='blue', opacity=0.5).encode(x='results:Q',y='results:Q').interactive()
     st.write(c)
 
     
