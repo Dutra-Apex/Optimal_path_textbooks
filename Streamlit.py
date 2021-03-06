@@ -63,7 +63,7 @@ while True:
     # Displays sections selection
     option = st.selectbox(
         'What section do you choose?',
-         df['Sections'])
+         df['Sections'], key='<abc>')
 
     path_length = st.text_input("Path length: ", 1)
     path_length = int(path_length)
