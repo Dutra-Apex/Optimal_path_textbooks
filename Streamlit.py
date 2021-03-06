@@ -197,7 +197,7 @@ if 1==1:
         # Fill in the data structure, which would be useful for plotting.
         results = {}
         for sec in path[:pathlen]:
-            results[title_name(sec)] = M_OS[sec,sig_features]
+            results[sec] = M_OS[sec,sig_features]
         plot_horizontal_bar(results, terms)
         #plt.figure(figsize=(10,6))
         plt.show()
