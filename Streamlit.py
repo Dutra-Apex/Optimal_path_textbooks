@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import pickle
 import csv
 import altair as alt
+from matplotlib.backends.backend_agg import RendererAgg
+_lock = RendererAgg.lock
 
 plt.style.use('fivethirtyeight')
 
@@ -232,10 +234,11 @@ if 1==1:
     data = pd.DataFrame.from_dict(results, orient='index', columns=sig_terms)
 
     # Plots the result
-    plot_path_sig_terms(M_OS, T_OS, good_path, path_length)
-    #plt.figure(figsize=(5,3))
-    #plt.title('List of relevancy of terms per section)
-    st.pyplot()
+    with _lock:
+        plot_path_sig_terms(M_OS, T_OS, good_path, path_length)
+        #plt.figure(figsize=(5,3))
+        #plt.title('List of relevancy of terms per section)
+        st.pyplot()
 
     #df = pd.DataFrame(
     #    np.random.randn(200, 3),
