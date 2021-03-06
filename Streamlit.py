@@ -6,7 +6,7 @@ import pickle
 import csv
 import altair as alt
 
-plt.style.use('fivethirtyeight')
+#plt.style.use('fivethirtyeight')
 
 if 1==1:
     # Opens titles file
