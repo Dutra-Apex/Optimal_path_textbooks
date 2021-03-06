@@ -6,7 +6,8 @@ import pickle
 import csv
 import altair as alt
 
-#while True:
+c=0
+while c < 1:
     # Opens titles file
     if 1:
         with open('OS_all_M_T_title.p', 'rb') as f:
@@ -205,4 +206,4 @@ import altair as alt
     plt.ylabel('Section')
     plt.show()
     st.pyplot()
-
+    c =1
