@@ -169,7 +169,7 @@ while True:
     sig_terms = []
     for i in sig_features:
         sig_terms.append(T_OS[i])
-    plot_path_sig_terms(M_OS, T_OS, OS_titles, good_path, 10, 10)
+    #plot_path_sig_terms(M_OS, T_OS, OS_titles, good_path, 10, 10)
 
     results = {}
     for sec in good_path[:path_length]:
