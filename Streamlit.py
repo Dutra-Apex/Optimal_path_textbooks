@@ -155,6 +155,7 @@ if 1==1:
         # features, and then find which index appears most often.
         return sig_features
 
+    # Function that plots the tf-df values of the most relevenat terms in each sequence
     def plot_horizontal_bar (results, category_names):
 
         labels = list(results.keys())
