@@ -72,7 +72,7 @@ if 1==1:
     path_length = st.text_input("Path length: ", 1)
     path_length = int(path_length)
 
-    # --------------------------------------------------------------------------------
+    # Algorithm to find best reading sequence
     def find_good_path(starting_point, prob=1.0):
         # input: M is number of points (row) x dimensions (column)
         # output: good_path = list of length N
