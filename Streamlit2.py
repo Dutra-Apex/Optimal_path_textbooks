@@ -6,6 +6,7 @@ import pickle
 import csv
 import altair as alt
 
+#Need to edit this loop
 c=0
 while c < 1:
     # Opens titles file
