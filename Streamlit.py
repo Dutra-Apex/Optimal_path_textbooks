@@ -241,6 +241,7 @@ if 1==1:
         #plt.title('List of relevancy of terms per section)
         st.pyplot()
 
+    #matlib does not work well with streamlit, needto update it with altair
     #df = pd.DataFrame(
     #    np.random.randn(200, 3),
     #    columns=['a', 'b', 'c'])
