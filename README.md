@@ -8,7 +8,6 @@ For instance, if the user wants to learn about Energy, the code would return a l
 Moreover, the algorithm also organizes the chapters from most relevant ones to least relevant.
 This organization is defined as the optimal reading sequence for the Energy topic.
 
-
 Possible applications of the algorithm are:
 - Show how topics can be interdisciplinary;
 - Help widen study guides;
