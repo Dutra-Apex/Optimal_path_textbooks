@@ -20,10 +20,8 @@ while c < 1:
         assert len(corpus_category)==len(OS_titles)
         # print(T_OS)
 
-
     M = M_OS
     category_label = corpus_category
-
 
     # Returns the name of the section given its index
     def title_name(index):
@@ -99,7 +97,6 @@ while c < 1:
             good_path.append(j)
         return good_path
 
-
     def high_tf_terms(M, path):
 
       l = []
@@ -121,7 +118,6 @@ while c < 1:
         values[terms[i]] = 0
 
       return terms
-
 
     def find_sig_features (M, path, pathlen=0):
         # Find features (column indices) with significance within path.
@@ -177,7 +173,6 @@ while c < 1:
     for sec in good_path[:path_length]:
        results[OS_titles[sec]] = M_OS[sec,sig_features]
 
-
     data = pd.DataFrame.from_dict(results, orient='index', columns=sig_terms)
 
     data.plot()
@@ -199,8 +194,7 @@ while c < 1:
 
     #c = alt.Chart(df.to_json()).mark_circle().encode(
     #   x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
-    #st.write(c)
-    
+    #st.write(c)  
 
     # Plots the result
     plt.plot(good_path,'.')
