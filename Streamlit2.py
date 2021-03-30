@@ -162,7 +162,6 @@ while c < 1:
         holder = find_good_path(i)
         terms = high_tf_terms(data, holder)
 
-
     sig_features = find_sig_features(M,good_path, path_length)
     sig_terms = []
     for i in sig_features:
