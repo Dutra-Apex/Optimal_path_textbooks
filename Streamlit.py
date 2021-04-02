@@ -22,7 +22,6 @@ if 1==1:
         assert len(corpus_category)==len(OS_titles)
         # print(T_OS)
 
-
     M = M_OS
     category_label = corpus_category
 
