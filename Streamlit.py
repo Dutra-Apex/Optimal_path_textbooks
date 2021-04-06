@@ -38,7 +38,6 @@ if 1==1:
             return
         return title
 
-
     # Opens list of urls
     sheet = pd.read_excel('urllist.xlsx')
 
