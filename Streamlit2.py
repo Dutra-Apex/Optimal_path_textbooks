@@ -191,8 +191,7 @@ while c < 1:
     #st.write(c)
 
     #c = alt.Chart(df.to_json()).mark_circle().encode(
-    #   x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
-    #st.write(c)  
+    #   x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c']
 
     # Plots the result
     plt.plot(good_path,'.')
