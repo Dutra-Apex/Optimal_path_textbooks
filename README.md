@@ -1,6 +1,7 @@
 # Optimal Reading Sequence in Science textbooks (WIP)
 
-This algorithm is part of an reserach article that can be found here: 
+This algorithm is part of an reserach article that can be found here:
+
 https://jitp.commons.gc.cuny.edu/constructing-an-introductory-science-curriculum-with-text-analysis-and-a-path-minimizing-heuristic-algorithm/
 
 Its goal is to return the most optimal reading sequence from chapters of science textbooks given a topic.
