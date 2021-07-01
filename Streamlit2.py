@@ -66,8 +66,8 @@ while c < 1:
 
     path_length = st.text_input("Path length: ", 1)
     path_length = int(path_length)
-
-    # --------------------------------------------------------------------------------
+    
+ # --------------------------------------------------------------------------------
     def find_good_path(starting_point, prob=1.0):
         # input: M is number of points (row) x dimensions (column)
         # output: good_path = list of length N
@@ -145,7 +145,7 @@ while c < 1:
         # We could have multiple strategies for finding the significant
         # features, and then find which index appears most often.
         return sig_features
-    # --------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
 
     # Runs routine above to find best sequence path
     good_path = find_good_path(list_sections.index(option))
