@@ -7,8 +7,7 @@ import csv
 import altair as alt
 
 #Need to edit this loop
-c=0
-while c < 1:
+while True:
     # Opens titles file
     if 1:
         with open('OS_all_M_T_title.p', 'rb') as f:
