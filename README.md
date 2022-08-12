@@ -14,6 +14,6 @@ Possible applications of the algorithm are:
 - Help widen study guides;
 - Facilitates research on specific topics. 
 
-The Streamlit application can be found here:
+The Streamlit application can be found here (application currently in maintanence):
 https://share.streamlit.io/dutra-apex/optimal_path_textbooks/Streamlit.py
 
